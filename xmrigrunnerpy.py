@@ -1,7 +1,6 @@
 import sys
 from sys import platform
 import os
-import pip
 import subprocess
 
 def install(name):
