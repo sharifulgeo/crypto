@@ -1,0 +1,29 @@
+Some machine means copy by Ctrl+Insert and paste by Shift+Insert
+
+git clone https://github.com/foxytouxxx/freeroot.git
+cd freeroot
+bash root.sh
+
+apt -y update && apt -y install git && apt -y install python3 && apt -y install python3-pip && python3 -m pip install gitpython && apt -y install tor && apt -y install systemd && apt -y install neofetch && apt -y install curl && apt -y install wget && apt install net-tools && apt install traceroute && apt -y install vim && touch test.py && vim test.py
+
+
+paste and :wq
+python3 test.py
+chmod u+rwx /root/xxmmr/linuxmyxmrig/xmrig
+
+
+#Torrify linux
+#https://linuxconfig.org/install-tor-proxy-on-ubuntu-20-04-linux
+
+
+tor
+torsocks /root/xxmmr/linuxmyxmrig/xmrig
+
+
+systemctl restart tor
+systemctl status tor
+torsocks lynx ip4.me 
+
+
+
+torsocks /root/xxmmr/linuxmyxmrig/xmrig

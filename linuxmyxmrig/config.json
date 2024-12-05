@@ -60,7 +60,7 @@
     "log-file": null,
     "pools": [
         {
-            "algo": null,
+            "algo": "rx/0",
             "coin": "XMR",
             "url": "stratum+ssl://randomxmonero.auto.nicehash.com:443",
             "user": "NHbSNiXSqkrEddGBjJEADMCAqtk7XdQU9wMq.workeroffice",
